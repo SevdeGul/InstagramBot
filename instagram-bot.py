@@ -55,7 +55,7 @@ if begenikontrol == 1:
     browser.find_element(By.XPATH, "(//button[@class='_abl-'])[2]").click()
 
 if yorumkontrol == 1:
-    print("Beğeni Yapılıyor")
+    print("Yorum Yapılıyor")
     browser.get(link)
     time.sleep(5)
     browser.find_element(By.XPATH, "(//button[@class='_abl-'])[3]").click()
